@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.5.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-04-15 07:09:11+0000\n"
+"PO-Revision-Date: 2024-05-12 07:19:10+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -37,20 +37,6 @@ msgctxt "default GMT offset or timezone string"
 msgid "0"
 msgstr "Asia/Shanghai"
 
-#: wp-admin/js/updates.js:1134
-msgid "Activation completed successfully. Some changes may not occur until you refresh the page."
-msgstr ""
-
-#. translators: %s: The refresh link's attributes.
-#: wp-admin/js/updates.js:1127
-msgid "Plugin activated. Some changes may not occur until you refresh the page. <a %s>Refresh Now</a>"
-msgstr ""
-
-#: wp-admin/menu.php:209
-msgctxt "patterns menu item"
-msgid "Patterns"
-msgstr ""
-
 #: wp-admin/about.php:259
 msgid "This release includes 110+ performance updates, with an impressive increase in speed and efficiency across the Post Editor and Site Editor. Loading is over two times faster than in 6.4, with input processing speed up to five times faster than the previous release. Translated sites see up to 25% improvement in load time for this release."
 msgstr "该版本包括 110 多项性能更新，整个「文章编辑器」和「网站编辑器」的速度和效率都有显著提高。加载速度比 6.4 版快两倍多，输入处理速度比上一版本快五倍。翻译网站在此版本中的加载时间最多可提高 25%。"
@@ -58,77 +44,6 @@ msgstr "该版本包括 110 多项性能更新，整个「文章编辑器」和�
 #: wp-admin/about.php:171
 msgid "Find and organize your data however you like with data views for pages, templates, patterns, and template parts. Arrange it in a table or grid view with the option to toggle fields and make bulk changes."
 msgstr "使用页面、模板、模式和模板组件的数据视图，可以随心所欲地查找和组织数据。在表格或网格视图中排列数据，并可选择切换字段和批量更改。"
-
-#. translators: %s: Error string for a failed dependencies check.
-#: wp-admin/js/updates.js:2387
-msgid "Dependencies check failed: %s"
-msgstr "依赖关系检查失败：%s"
-
-#. translators: %s: The remaining number of plugins.
-#: wp-admin/js/updates.js:1484
-msgctxt "plugin/plugins"
-msgid "%s item"
-msgid_plural "%s items"
-msgstr[0] "%s 项目"
-
-#. translators: %s: Plugin name.
-#: wp-admin/js/updates.js:1209
-msgctxt "plugin"
-msgid "%s activation failed"
-msgstr "%s 启用失败"
-
-#: wp-admin/js/updates.js:1206
-msgid "Activation failed."
-msgstr "启用失败。"
-
-#: wp-admin/js/updates.js:1116
-msgctxt "plugin"
-msgid "Activated!"
-msgstr "已启用！"
-
-#. translators: %s: Plugin name.
-#: wp-admin/js/updates.js:1093 wp-admin/js/updates.js:2689
-msgctxt "plugin"
-msgid "Activating %s"
-msgstr "启用 %s"
-
-#: wp-admin/js/updates.js:1090 wp-admin/js/updates.js:2693
-msgid "Activating..."
-msgstr "正在启用..."
-
-#: wp-admin/js/updates.js:1080
-msgid "Activating... please wait."
-msgstr "正在启用......请稍候。"
-
-#. translators: %s: Error string for a failed activation.
-#: wp-admin/js/updates.js:1031 wp-admin/js/updates.js:1220
-#: wp-admin/js/updates.js:2392
-msgid "Activation failed: %s"
-msgstr "启用失败：%s"
-
-#. translators: 1: Plugin name, 2. The reason the plugin cannot be activated.
-#: wp-admin/js/updates.js:1019
-msgctxt "plugin"
-msgid "Cannot activate %1$s. %2$s"
-msgstr "无法启用 %1$s。%2$s"
-
-#: wp-admin/js/updates.js:956
-msgid "Plugin dependencies check completed successfully."
-msgstr "插件依赖性检查成功完成。"
-
-#: wp-admin/js/updates.js:929
-msgid "Checking plugin dependencies... please wait."
-msgstr "检查插件依赖性......请稍候。"
-
-#. translators: %d: Number of search results found.
-#: wp-admin/js/tags-suggest.js:145
-msgid "%d result found. Use up and down arrow keys to navigate."
-msgid_plural "%d results found. Use up and down arrow keys to navigate."
-msgstr[0] "找到 %d 结果。使用上下箭头键导航。"
-
-#: wp-admin/js/inline-edit-post.js:246
-msgid "Some selected posts have this category"
-msgstr "某些选定的文章有此分类"
 
 #: wp-admin/options-general.php:179 wp-admin/options-general.php:185
 msgid "Change Site Icon"
@@ -392,27 +307,15 @@ msgstr "区块编辑器需要 JavaScript。请在浏览器设置中启用 JavaSc
 msgid "The block editor requires JavaScript. Please enable JavaScript in your browser settings, or activate the <a href=\"%s\">Classic Editor plugin</a>."
 msgstr "区块编辑器需要 JavaScript。请在浏览器设置中启用 JavaScript，或启用<a href=\"%s\">经典编辑器插件</a>。"
 
-#: wp-admin/js/site-health.js:476
-msgid "Running additional tests... please wait."
-msgstr "正在运行其他测试...请稍候。"
-
-#: wp-admin/js/site-health.js:473
-msgid "All site health tests have finished running. There are items that should be addressed."
-msgstr "所有站点健康测试均已完成。有些项目需要处理。"
-
-#: wp-admin/js/site-health.js:470
-msgid "All site health tests have finished running. Your site is looking good."
-msgstr "所有网站健康测试均已完成。您的网站运行良好。"
-
 #: wp-admin/my-sites.php:81 wp-admin/network/menu.php:53
 #: wp-admin/network/site-new.php:182 wp-admin/network/site-new.php:192
 #: wp-admin/network/sites.php:381
 msgid "Add New Site"
-msgstr "新增站点"
+msgstr "新站点"
 
 #: wp-admin/menu.php:310 wp-admin/plugins.php:757 wp-admin/network/menu.php:106
 msgid "Add New Plugin"
-msgstr "添加插件"
+msgstr "安装新插件"
 
 #: wp-admin/includes/image-edit.php:80
 msgid "Rotate 180&deg;"
@@ -484,10 +387,6 @@ msgstr "https://wordpress.org/support/wordpress-version/version-%s/"
 #: wp-admin/contribute.php:103 wp-admin/credits.php:57 wp-admin/credits.php:65
 msgid "https://make.wordpress.org/contribute/"
 msgstr "https://make.wordpress.org/contribute/"
-
-#: wp-admin/js/image-edit.js:1419
-msgid "Selected crop ratio exceeds the boundaries of the image. Try a different ratio."
-msgstr "所选的裁剪比例超出了图像的边界。尝试不同的比例。"
 
 #: wp-admin/update-core.php:1068
 msgid "Updates may take several minutes to complete. If there is no feedback after 5 minutes, or if there are errors please refer to the Help section above."
@@ -1115,10 +1014,6 @@ msgstr "这是 WordPress %s 的最终版本"
 msgid "Site Editor"
 msgstr "站点编辑器"
 
-#: wp-admin/js/post.js:1085
-msgid "URL Slug"
-msgstr "URL 别名"
-
 #: wp-admin/users.php:66
 msgid "<strong>Send password reset</strong> sends the user an email with a link to set a new password."
 msgstr "<strong>发送密码重置</strong> 将向用户发送一封带有设置新密码链接的电子邮件。"
@@ -1469,15 +1364,6 @@ msgstr "了解 WordPress %s"
 msgid "Please type your comment text."
 msgstr "请输入您的评论文字。"
 
-#: wp-admin/js/inline-edit-post.js:284
-msgid "All selected items have been removed. Select new items to use Bulk Actions."
-msgstr "所有选定的项目均已移除。 请选择新项目以使用批量操作。"
-
-#. translators: %s: Post title.
-#: wp-admin/js/inline-edit-post.js:206
-msgid "Remove &#8220;%s&#8221; from Bulk Edit"
-msgstr "从批量编辑中移除「%s」"
-
 #: wp-admin/users.php:461 wp-admin/users.php:493
 msgid "You cannot remove users."
 msgstr "您无法移除用户。"
@@ -1696,7 +1582,7 @@ msgstr "使用区块主题定制整个站点"
 
 #: wp-admin/includes/dashboard.php:2098
 msgid "Add a new page"
-msgstr "新增页面"
+msgstr "新页面"
 
 #: wp-admin/includes/dashboard.php:2097
 msgid "Block patterns are pre-configured block layouts. Use them to get inspired or create new pages in a flash."
@@ -2014,10 +1900,6 @@ msgstr "当前"
 #: wp-admin/includes/bookmark.php:370
 msgid "Please activate the <a href=\"%s\">Link Manager plugin</a> to use the link manager."
 msgstr "请启用<a href=\"%s\">链接管理器插件</a>以使用链接管理器。"
-
-#: wp-admin/js/privacy-tools.js:317
-msgid "The suggested policy text has been copied to your clipboard."
-msgstr "建议的《隐私政策》文本已被复制到您的剪贴板。"
 
 #: wp-admin/options-privacy.php:265
 msgid "Create a new Privacy Policy page"
@@ -2427,42 +2309,6 @@ msgstr "返回顶部"
 msgid "%s could not be located. Please try another nearby city. For example: Kansas City; Springfield; Portland."
 msgstr "系统无法找到城市名「%s」。请更换一个附近的城市名试试。例如：北京、杭州、厦门、成都、重庆。"
 
-#: wp-admin/js/application-passwords.js:136
-msgid "All application passwords revoked."
-msgstr "所有应用程序密码已撤消。"
-
-#: wp-admin/js/application-passwords.js:116
-msgid "Are you sure you want to revoke all passwords? This action cannot be undone."
-msgstr "您确定要撤销所有密码吗？此操作无法撤消。"
-
-#: wp-admin/js/application-passwords.js:108
-msgid "Application password revoked."
-msgstr "应用程序密码已撤消。"
-
-#: wp-admin/js/application-passwords.js:85
-msgid "Are you sure you want to revoke this password? This action cannot be undone."
-msgstr "您确定要撤销这个密码吗？此操作无法撤消。"
-
-#: wp-admin/js/site-health.js:341
-msgid "Unavailable"
-msgstr "不可用"
-
-#: wp-admin/js/site-health.js:289 wp-admin/js/site-health.js:310
-msgid "No details available"
-msgstr "无详细资料可用"
-
-#: wp-admin/js/privacy-tools.js:83
-msgid "This user&#8217;s personal data export file was downloaded."
-msgstr "此用户的个人数据导出文件已下载。"
-
-#: wp-admin/js/privacy-tools.js:80
-msgid "This user&#8217;s personal data export link was sent."
-msgstr "此用户的个人数据导出链接已发送。"
-
-#: wp-admin/js/dashboard.js:508
-msgid "Attend an upcoming event near you."
-msgstr "参加一场您附近的活动。"
-
 #: wp-admin/authorize-application.php:323
 msgid "You will be returned to the WordPress Dashboard, and no changes will be made."
 msgstr "您将返回到 WordPress 仪表盘，并且不会进行任何更改。"
@@ -2743,23 +2589,6 @@ msgstr "请注意，即使设置为不鼓励搜索引擎进行索引，您的站
 msgid "You can choose whether or not your site will be crawled by robots, ping services, and spiders. If you want those services to ignore your site, click the checkbox next to &#8220;Discourage search engines from indexing this site&#8221; and click the Save Changes button at the bottom of the screen."
 msgstr "您可以决定是否让索引工具、搜索引擎爬虫、 Ping 服务访问您的站点。如果您不希望它们访问您的站点，请选择「建议搜索引擎不索引本站点」，并点击下方的「保存更改」。"
 
-#. translators: Used as part of a string like `GMT+5` in the Events Widget.
-#: wp-admin/js/dashboard.js:742
-msgctxt "Events widget offset prefix"
-msgid "GMT"
-msgstr "GMT"
-
-#. translators: 1: Deprecated property name, 2: Version number.
-#: wp-admin/js/common.js:45
-msgid "%1$s is deprecated since version %2$s with no alternative available."
-msgstr "%1$s 自 %2$s 版本开始已弃用，没有替代方案。"
-
-#. translators: 1: Deprecated property name, 2: Version number, 3: Alternative
-#. property name.
-#: wp-admin/js/common.js:37
-msgid "%1$s is deprecated since version %2$s! Use %3$s instead."
-msgstr "%1$s 自版本 %2$s 起已弃用！请改用 %3$s。"
-
 #. translators: 1: post_max_size, 2: upload_max_filesize
 #: wp-admin/includes/class-wp-site-health.php:2390
 msgid "The \"%1$s\" value is smaller than \"%2$s\""
@@ -2932,174 +2761,6 @@ msgstr "抱歉，您不能启用主题自动更新。"
 msgid "This plugin is already installed."
 msgstr "该插件已安装。"
 
-#: wp-admin/js/tags-box.js:344
-msgid "Term added."
-msgstr "已新增标签项目。"
-
-#: wp-admin/js/tags-box.js:340
-msgid "Term removed."
-msgstr "已移除标签项目。"
-
-#: wp-admin/js/tags-box.js:170
-msgid "Remove term:"
-msgstr "移除标签项目："
-
-#: wp-admin/js/inline-edit-post.js:522 wp-admin/js/inline-edit-post.js:523
-#: wp-admin/js/inline-edit-tax.js:241 wp-admin/js/inline-edit-tax.js:242
-msgid "Error while saving the changes."
-msgstr "保存更改时发生错误。"
-
-#: wp-admin/js/nav-menu.js:1430
-msgid ""
-"You are about to permanently delete this menu.\n"
-"'Cancel' to stop, 'OK' to delete."
-msgstr ""
-"您将永久删除这一菜单。\n"
-"点击「取消」停止，点击「确定」删除。"
-
-#: wp-admin/js/postbox.js:556
-msgid "Drag boxes here"
-msgstr "拖动模块至此"
-
-#: wp-admin/js/postbox.js:556
-msgid "Add boxes from the Screen Options menu"
-msgstr "自显示选项菜单中新增模块"
-
-#: wp-admin/js/postbox.js:504
-msgid "The boxes order has been saved."
-msgstr "模块顺序已保存。"
-
-#: wp-admin/js/postbox.js:115
-msgid "The box is on the last position"
-msgstr "模块已位于尾端位置"
-
-#: wp-admin/js/postbox.js:114
-msgid "The box is on the first position"
-msgstr "模块已位于顶端位置"
-
-#. translators: %s: Error count.
-#: wp-admin/js/theme-plugin-editor.js:381
-msgid "There is %s error which must be fixed before you can update this file."
-msgid_plural "There are %s errors which must be fixed before you can update this file."
-msgstr[0] "在您更新此文件前必须修正 %s 个错误。"
-
-#: wp-admin/js/theme-plugin-editor.js:229
-msgid "Something went wrong. Your change may not have been saved. Please try again. There is also a chance that you may need to manually fix and upload the file over FTP."
-msgstr "出现了问题，您的修改可能未被保存，请重试。您也可能需要通过 FTP 手工修复并上传文件。"
-
-#: wp-admin/js/plugin-install.js:165 wp-admin/js/plugin-install.js:179
-msgid "Plugin details"
-msgstr "插件详情"
-
-#. translators: %s: Plugin name.
-#: wp-admin/js/plugin-install.js:162
-msgid "Plugin: %s"
-msgstr "插件：%s"
-
-#: wp-admin/js/user-profile.js:482
-msgid "Your new password has not been saved."
-msgstr "您的新密码未被保存。"
-
-#: wp-admin/js/privacy-tools.js:211
-msgid "An error occurred while attempting to find and erase personal data."
-msgstr "在试图查找并抹除个人数据时发生错误。"
-
-#: wp-admin/js/privacy-tools.js:201
-msgid "Personal data was found for this user but some of the personal data found was not erased."
-msgstr "找到了此用户的个人数据，但其中一些数据并未抹除。"
-
-#: wp-admin/js/privacy-tools.js:199
-msgid "All of the personal data found for this user was erased."
-msgstr "此用户的所有个人数据均已抹除。"
-
-#: wp-admin/js/privacy-tools.js:194
-msgid "Personal data was found for this user but was not erased."
-msgstr "找到了此用户的个人数据，但并未抹除。"
-
-#: wp-admin/js/privacy-tools.js:185 wp-admin/js/privacy-tools.js:192
-msgid "No personal data was found for this user."
-msgstr "未找到此用户的个人数据。"
-
-#: wp-admin/js/privacy-tools.js:100
-msgid "An error occurred while attempting to export personal data."
-msgstr "在试图导出个人数据时发生错误。"
-
-#: wp-admin/js/privacy-tools.js:93
-msgid "No personal data export file was generated."
-msgstr "未生成个人数据导出文件。"
-
-#: wp-admin/js/tags-suggest.js:112
-msgid "Term selected."
-msgstr "已选取标签项目。"
-
-#: wp-admin/js/post.js:1064
-msgid "Permalink saved"
-msgstr "固定链接已保存"
-
-#: wp-admin/js/post.js:799
-msgid "Published on:"
-msgstr "发布于："
-
-#: wp-admin/js/post.js:796
-msgid "Publish on:"
-msgstr "发布于："
-
-#: wp-admin/js/post.js:793
-msgid "Schedule for:"
-msgstr "预定发布于："
-
-#: wp-admin/js/post.js:485
-msgid "Saving Draft…"
-msgstr "草稿保存中…"
-
-#: wp-admin/js/post.js:81
-msgid "No more comments found."
-msgstr "已无更多评论。"
-
-#: wp-admin/js/post.js:77
-msgid "Show more comments"
-msgstr "显示更多评论"
-
-#: wp-admin/js/updates.js:3420 wp-admin/js/updates.js:3484
-#: wp-admin/js/updates.js:3486
-msgid "The request could not be completed."
-msgstr "该请求无法完成。"
-
-#: wp-admin/js/updates.js:3396
-msgid "Disabling..."
-msgstr "正在禁用…"
-
-#: wp-admin/js/updates.js:3394
-msgid "Enabling..."
-msgstr "正在启用…"
-
-#. translators: %s: Number of plugins.
-#: wp-admin/js/updates.js:3071 wp-admin/js/updates.js:3157
-msgid "Number of plugins found: %d"
-msgstr "找到的插件数：%d"
-
-#: wp-admin/js/updates.js:2897
-msgid "Caution: These themes may be active on other sites in the network. Are you sure you want to proceed?"
-msgstr "注意：这些主题可能已在站点网络中的其他站点上启用，您确定要继续？"
-
-#: wp-admin/js/updates.js:2896
-msgid "Are you sure you want to delete the selected plugins and their data?"
-msgstr "您确定要删除选中的插件及其数据吗？"
-
-#: wp-admin/js/updates.js:2884
-msgid "Please select at least one item to perform this action on."
-msgstr "请为此操作选择至少一个项目。"
-
-#. translators: %s: Plugin name.
-#: wp-admin/js/updates.js:2764
-msgid "Are you sure you want to delete %s and its data?"
-msgstr "您确定要删除 %s 及其数据吗？"
-
-#: wp-admin/js/updates.js:2579 wp-admin/js/updates.js:2657
-#: wp-admin/js/updates.js:2738
-msgid "Update canceled."
-msgstr "更新已取消。"
-
 #. translators: %s: Plugin name and version.
 #. translators: %s: Plugin name.
 #: wp-admin/includes/plugin-install.php:992 wp-admin/includes/update.php:568
@@ -3107,68 +2768,6 @@ msgstr "更新已取消。"
 msgctxt "plugin"
 msgid "Update %s now"
 msgstr "立即更新「%s」"
-
-#: wp-admin/js/updates.js:2445
-msgid "Updates may not complete if you navigate away from this page."
-msgstr "如果您离开此页，插件更新或不会完成。"
-
-#: wp-admin/js/updates.js:2367
-msgid "Connection lost or the server is busy. Please try again later."
-msgstr "连接丢失或服务器忙，请稍后再试。"
-
-#. translators: %s: Error string for a failed deletion.
-#: wp-admin/js/updates.js:2061 wp-admin/js/updates.js:2397
-msgid "Deletion failed: %s"
-msgstr "删除失败：%s"
-
-#: wp-admin/js/updates.js:2039
-msgctxt "theme"
-msgid "Deleted!"
-msgstr "已删除！"
-
-#. translators: %s: Theme name and version.
-#: wp-admin/js/updates.js:1905
-msgctxt "theme"
-msgid "%s installation failed"
-msgstr "「%s」安装失败"
-
-#. translators: %s: Theme name.
-#: wp-admin/js/updates.js:1818
-msgctxt "theme"
-msgid "Network Activate %s"
-msgstr "在站点网络中启用 %s"
-
-#. translators: %s: Theme name and version.
-#: wp-admin/js/updates.js:1794
-msgctxt "theme"
-msgid "%s installed!"
-msgstr "「%s」安装完成！"
-
-#. translators: %s: Theme name and version.
-#: wp-admin/js/updates.js:1755
-msgctxt "theme"
-msgid "Installing %s..."
-msgstr "正在安装「%s」…"
-
-#: wp-admin/js/updates.js:1625
-msgctxt "theme"
-msgid "Updated!"
-msgstr "已更新！"
-
-#: wp-admin/js/updates.js:1600
-msgid "Updating... please wait."
-msgstr "更新中…请稍等。"
-
-#: wp-admin/js/updates.js:1491
-msgctxt "plugin"
-msgid "Deleted!"
-msgstr "已删除！"
-
-#: wp-admin/js/updates.js:1358 wp-admin/js/updates.js:1361
-#: wp-admin/js/updates.js:1364 wp-admin/js/updates.js:1942
-#: wp-admin/js/updates.js:1945 wp-admin/js/updates.js:1948
-msgid "Deleting..."
-msgstr "删除中…"
 
 #. translators: %s: Importer name.
 #. translators: %s: Plugin name and version.
@@ -3180,165 +2779,11 @@ msgctxt "plugin"
 msgid "Install %s now"
 msgstr "立即安装「%s」"
 
-#. translators: %s: Activation URL.
-#: wp-admin/js/updates.js:1263
-msgid "Importer installed successfully. <a href=\"%s\">Run importer</a>"
-msgstr "导入器安装成功。<a href=\"%s\">运行导入器</a>"
-
-#. translators: %s: Plugin name and version.
-#: wp-admin/js/updates.js:857
-msgctxt "plugin"
-msgid "%s installation failed"
-msgstr "「%s」安装失败"
-
-#. translators: %s: Error string for a failed installation.
-#: wp-admin/js/updates.js:872 wp-admin/js/updates.js:1300
-#: wp-admin/js/updates.js:1864 wp-admin/js/updates.js:2382
-msgid "Installation failed: %s"
-msgstr "安装失败：%s"
-
-#: wp-admin/js/updates.js:814 wp-admin/js/updates.js:1281
-#: wp-admin/js/updates.js:1800
-msgid "Installation completed successfully."
-msgstr "安装成功完成。"
-
-#: wp-admin/js/updates.js:801
-msgctxt "plugin"
-msgid "Installed!"
-msgstr "已安装！"
-
-#. translators: %s: Plugin name and version.
-#: wp-admin/js/updates.js:804
-msgctxt "plugin"
-msgid "%s installed!"
-msgstr "「%s」安装完成！"
-
-#: wp-admin/js/updates.js:767 wp-admin/js/updates.js:1761
-msgid "Installing... please wait."
-msgstr "正在安装…请稍等。"
-
-#. translators: %s: Plugin name and version.
-#: wp-admin/js/updates.js:758
-msgctxt "plugin"
-msgid "Installing %s..."
-msgstr "正在安装「%s」…"
-
-#: wp-admin/js/updates.js:740 wp-admin/js/updates.js:752
-#: wp-admin/js/updates.js:1746 wp-admin/js/updates.js:1759
-msgid "Installing..."
-msgstr "正在安装…"
-
-#. translators: %s: Plugin name and version.
-#: wp-admin/js/updates.js:654 wp-admin/js/updates.js:681
-msgctxt "plugin"
-msgid "%s update failed."
-msgstr "「%s」更新失败。"
-
-#. translators: %s: Error string for a failed update.
-#: wp-admin/js/updates.js:634 wp-admin/js/updates.js:1688
-#: wp-admin/js/updates.js:2377
-msgid "Update failed: %s"
-msgstr "更新失败：%s"
-
-#: wp-admin/js/updates.js:587 wp-admin/js/updates.js:1662
-msgid "Update completed successfully."
-msgstr "更新成功完成。"
-
-#: wp-admin/js/updates.js:554
-msgctxt "plugin"
-msgid "Updated!"
-msgstr "已更新！"
-
-#. translators: %s: Plugin name and version.
-#: wp-admin/js/updates.js:557
-msgctxt "plugin"
-msgid "%s updated!"
-msgstr "「%s」更新完成！"
-
-#: wp-admin/js/updates.js:481 wp-admin/js/updates.js:512
-#: wp-admin/js/updates.js:1596 wp-admin/js/updates.js:1601
-msgid "Updating..."
-msgstr "正在更新…"
-
-#. translators: %s: Plugin name and version.
-#: wp-admin/js/updates.js:494 wp-admin/js/updates.js:502
-msgctxt "plugin"
-msgid "Updating %s..."
-msgstr "正在更新「%s」…"
-
-#: wp-admin/js/widgets.js:706
-msgid "Widget has been added to the selected sidebar"
-msgstr "小工具已被加入所选的侧栏"
-
-#: wp-admin/js/color-picker.js:155
-msgid "Clear color"
-msgstr "清除颜色"
-
-#: wp-admin/js/color-picker.js:150
-msgid "Select default color"
-msgstr "选择默认颜色"
-
-#: wp-admin/js/color-picker.js:121
-msgid "Color value"
-msgstr "颜色值"
-
-#: wp-admin/js/image-edit.js:821
-msgid "Could not load the preview image."
-msgstr "无法加载预览图片。"
-
-#: wp-admin/js/image-edit.js:612
-msgid "Could not load the preview image. Please reload the page and try again."
-msgstr "无法加载预览图片。请尝试刷新页面。"
-
-#. translators: 1: Deprecated function name, 2: Version number, 3: Alternative
-#. function name.
-#: wp-admin/js/password-strength-meter.js:66
-msgid "%1$s is deprecated since version %2$s! Use %3$s instead. Please consider writing more inclusive code."
-msgstr "自 %2$s 版开始，%1$s 已经淘汰，请改用 %3$s。请考虑撰写更具兼容性的代码。"
-
-#: wp-admin/js/comment.js:87
-msgid "Submitted on:"
-msgstr "提交于："
-
-#: wp-admin/js/edit-comments.js:1232
-msgid ""
-"Are you sure you want to do this?\n"
-"The comment changes you made will be lost."
-msgstr ""
-"您确定要进行这项操作吗？\n"
-"您对评论做出的修改将会丢失。"
-
-#: wp-admin/js/edit-comments.js:852
-msgid ""
-"Are you sure you want to edit this comment?\n"
-"The changes you made will be lost."
-msgstr ""
-"您确定要编辑此评论？\n"
-"您做出的修改将会丢失。"
-
-#: wp-admin/js/edit-comments.js:366 wp-admin/js/edit-comments.js:1013
-msgid "Approve and Reply"
-msgstr "批准并回复"
-
-#: wp-admin/js/common.js:2022
-msgid "Expand Main menu"
-msgstr "展开主菜单"
-
 #. translators: Hidden accessibility text.
 #: wp-admin/user-edit.php:986 wp-admin/js/application-passwords.js:203
 #: wp-admin/js/common.js:1124
 msgid "Dismiss this notice."
 msgstr "忽略此通知。"
-
-#: wp-admin/js/common.js:542
-msgid ""
-"You are about to permanently delete these items from your site.\n"
-"This action cannot be undone.\n"
-"'Cancel' to stop, 'OK' to delete."
-msgstr ""
-"您即将从您的站点永久删除这些项目。\n"
-"此操作无法撤消。\n"
-"按「取消」可取消，按「确定」可确认删除。"
 
 #. translators: %s: Theme name.
 #: wp-admin/theme-install.php:431 wp-admin/themes.php:630
@@ -4099,14 +3544,6 @@ msgstr "UTF8MB4 是 WordPress 建议使用于数据库存储的字符集，它�
 msgid "https://wordpress.org/about/stats/"
 msgstr "https://cn.wordpress.org/about/stats/"
 
-#: wp-admin/js/site-health.js:230
-msgid "Should be improved"
-msgstr "有待改进"
-
-#: wp-admin/js/site-health.js:225
-msgid "Good"
-msgstr "良好"
-
 #: wp-admin/export.php:59
 msgid "<a href=\"https://wordpress.org/documentation/article/tools-export-screen/\">Documentation on Export</a>"
 msgstr "<a href=\"https://wordpress.org/documentation/article/tools-export-screen/\">导出文档</a>"
@@ -4129,7 +3566,7 @@ msgstr "<a href=\"https://wordpress.org/documentation/article/settings-discussio
 
 #: wp-admin/theme-install.php:156
 msgid "<a href=\"https://wordpress.org/documentation/article/appearance-themes-screen/#install-themes\">Documentation on Adding New Themes</a>"
-msgstr "<a href=\"https://wordpress.org/documentation/article/appearance-themes-screen/#install-themes\">新增主题文档</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/appearance-themes-screen/#install-themes\">安装主题文档</a>"
 
 #: wp-admin/media-new.php:61
 msgid "<a href=\"https://wordpress.org/documentation/article/media-add-new-screen/\">Documentation on Uploading Media Files</a>"
@@ -4178,7 +3615,7 @@ msgstr "<a href=\"https://wordpress.org/documentation/article/pages-screen/\">�
 
 #: wp-admin/edit-form-advanced.php:336
 msgid "<a href=\"https://wordpress.org/documentation/article/pages-add-new-screen/\">Documentation on Adding New Pages</a>"
-msgstr "<a href=\"https://wordpress.org/documentation/article/pages-add-new-screen/\">新增文章文档</a>"
+msgstr "<a href=\"https://wordpress.org/documentation/article/pages-add-new-screen/\">新页面文档</a>"
 
 #: wp-admin/upload.php:198 wp-admin/upload.php:400
 msgid "<a href=\"https://wordpress.org/documentation/article/media-library-screen/\">Documentation on Media Library</a>"
@@ -5379,10 +4816,6 @@ msgstr "手动检查更新"
 #: wp-admin/includes/class-wp-site-health.php:281
 msgid "Unable to check if any new versions of WordPress are available."
 msgstr "无法检查是否有任何新版本的 WordPress 可用。"
-
-#: wp-admin/js/site-health.js:40
-msgid "Site information has been copied to your clipboard."
-msgstr "站点信息已被复制到您的剪贴板。"
 
 #. translators: %s: Name of the filter used.
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:451
@@ -7443,29 +6876,9 @@ msgstr "WordCamp"
 msgid "Meetups"
 msgstr "聚会"
 
-#. translators: %s: The name of a city.
-#: wp-admin/js/dashboard.js:538
-msgid "City updated. Listing events near %s."
-msgstr "城市已更新。列出在 %s 附近的活动。"
-
-#. translators: %s is the name of the city we couldn't locate. Replace the
-#. examples with cities related to your locale. Test that they match the
-#. expected location and have upcoming events before including them. If no
-#. cities related to your locale have events, then use cities related to your
-#. locale that would be recognizable to most users. Use only the city name
-#. itself, without any region or country. Use the endonym (native locale name)
-#. instead of the English name if possible.
-#: wp-admin/js/dashboard.js:570
-msgid "We couldn’t locate %s. Please try another nearby city. For example: Kansas City; Springfield; Portland."
-msgstr "不能识别城市名「%s」。请更换一个附近的城市名试试，比如北京、杭州、厦门、成都、重庆。"
-
 #: wp-admin/includes/dashboard.php:1362 wp-admin/js/dashboard.js:585
 msgid "An error occurred. Please try again."
 msgstr "发生了一个错误，请重试。"
-
-#: wp-admin/js/dashboard.js:590
-msgid "Enter your closest city to find nearby events."
-msgstr "输入距离您最近的城市来查找附近的活动。"
 
 #: wp-admin/includes/dashboard.php:92
 msgid "WordPress Events and News"
@@ -7612,7 +7025,7 @@ msgstr "%s 个更新失败。"
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:456
 msgid "Search installed plugins..."
-msgstr "搜索已安装的插件…"
+msgstr "搜索已安装插件…"
 
 #: wp-admin/plugin-install.php:103
 msgid "You can find new plugins to install by searching or browsing the directory right here in your own Plugins section."
@@ -7950,10 +7363,6 @@ msgstr "主题未能被删除。"
 #: wp-admin/includes/ajax-actions.php:4390
 msgid "Sorry, you are not allowed to delete themes on this site."
 msgstr "抱歉，您不能在此站点上删除主题。"
-
-#: wp-admin/js/updates.js:662 wp-admin/js/updates.js:2421
-msgid "Update failed."
-msgstr "更新失败。"
 
 #: wp-admin/includes/ajax-actions.php:4170 wp-admin/theme-install.php:16
 #: wp-admin/update.php:262 wp-admin/update.php:304 wp-admin/update.php:342
@@ -9595,7 +9004,7 @@ msgstr "浏览插件"
 
 #: wp-admin/plugin-install.php:51
 msgid "Add Plugins"
-msgstr "添加插件"
+msgstr "安装插件"
 
 #. translators: 1: WPLANG, 2: wp-config.php
 #: wp-admin/options-general.php:334
@@ -9790,7 +9199,7 @@ msgstr "搜索主题"
 
 #: wp-admin/theme-install.php:25
 msgid "Add Themes"
-msgstr "添加主题"
+msgstr "安装主题"
 
 #: wp-admin/maint/repair.php:162
 msgid "https://wordpress.org/support/forum/how-to-and-troubleshooting"
@@ -9841,7 +9250,7 @@ msgstr "感谢使用 <a href=\"%s\">WordPress</a> 进行创作。"
 
 #: wp-admin/themes.php:234
 msgid "Search installed themes..."
-msgstr "搜索已安装的主题…"
+msgstr "搜索已安装主题…"
 
 #: wp-admin/update-core.php:1005
 msgid "<strong>Translations</strong> &mdash; The files translating WordPress into your language are updated for you whenever any other updates occur. But if these files are out of date, you can <strong>click the &#8220;Update Translations&#8221;</strong> button."
@@ -10030,7 +9439,7 @@ msgstr "更新可用"
 #: wp-admin/themes.php:255 wp-admin/network/menu.php:81
 #: wp-admin/network/themes.php:366
 msgid "Add New Theme"
-msgstr "新增主题"
+msgstr "安装新主题"
 
 #: wp-admin/themes.php:228
 msgid ""
@@ -11177,11 +10586,6 @@ msgstr "收起"
 msgid "If you do not want a header image to be displayed on your site at all, click the &#8220;Remove Header Image&#8221; button at the bottom of the Header Image section of this page. If you want to re-enable the header image later, you just have to select one of the other image options and click &#8220;Save Changes&#8221;."
 msgstr "如果您不想要页眉图片，点击本页下方「页眉图片」一节的「移除页眉图片」按钮。移除之后如需再次启用页眉图片功能，您只须选择一张图片，然后点击「保存更改」。"
 
-#: wp-admin/js/updates.js:1798
-msgctxt "theme"
-msgid "Installed!"
-msgstr "已安装"
-
 #: wp-admin/includes/class-wp-theme-install-list-table.php:325
 #: wp-admin/includes/class-wp-theme-install-list-table.php:484
 msgid "This theme is already installed and is up to date"
@@ -11332,10 +10736,6 @@ msgstr "已私密发布"
 msgid "Save as Pending"
 msgstr "保存为待审"
 
-#: wp-admin/js/set-post-thumbnail.js:16
-msgid "Use as featured image"
-msgstr "设置为特色图片"
-
 #: wp-admin/includes/media.php:1418 wp-admin/includes/media.php:3005
 msgid "Enter a link URL or click above for presets."
 msgstr "输入链接 URL 或选择上方的预设值。"
@@ -11381,12 +10781,6 @@ msgstr "编辑评论"
 #: wp-admin/options-general.php:491 wp-admin/options-general.php:539
 msgid "Preview:"
 msgstr "预览："
-
-#. translators: %s: Plugin name.
-#. translators: %s: Theme name.
-#: wp-admin/js/updates.js:2770 wp-admin/js/updates.js:2827
-msgid "Are you sure you want to delete %s?"
-msgstr "您确定要删除 %s 吗？"
 
 #: wp-admin/includes/class-wp-users-list-table.php:397
 #: wp-admin/includes/class-wp-ms-users-list-table.php:217
@@ -12265,7 +11659,7 @@ msgstr "更新 %s"
 
 #: wp-admin/menu.php:307 wp-admin/network/menu.php:105
 msgid "Installed Plugins"
-msgstr "已安装的插件"
+msgstr "已安装插件"
 
 #. translators: %s: Number of available plugin updates.
 #: wp-admin/menu.php:305 wp-admin/network/menu.php:88
@@ -12867,7 +12261,7 @@ msgstr "电子邮箱地址或用户名"
 #: wp-admin/themes.php:233 wp-admin/network/site-themes.php:240
 #: wp-admin/network/themes.php:463
 msgid "Search Installed Themes"
-msgstr "搜索已安装的主题"
+msgstr "搜索已安装主题"
 
 #. translators: %s: Link to documentation on child themes.
 #: wp-admin/update-core.php:665
@@ -13406,7 +12800,7 @@ msgstr "您可以通过以下方法来自定义本页面："
 
 #: wp-admin/plugins.php:793
 msgid "Search Installed Plugins"
-msgstr "搜索已安装的插件"
+msgstr "搜索已安装插件"
 
 #: wp-admin/nav-menus.php:830
 msgid "Your theme supports one menu. Select which menu you would like to use."
@@ -13674,10 +13068,6 @@ msgstr "可视化编辑器样式表"
 msgid "Page saved."
 msgstr "页面已保存。"
 
-#: wp-admin/js/updates.js:701
-msgid "Update Now"
-msgstr "立即更新"
-
 #. translators: %s: Importer name.
 #. translators: %s: Plugin name and version.
 #. translators: %s: Plugin name.
@@ -13827,10 +13217,6 @@ msgstr "您不能更新至 <a href=\"%1$s\">WordPress %2$s</a>，因其需要 PH
 #: wp-admin/update-core.php:987 wp-admin/update-core.php:1067
 msgid "WordPress Updates"
 msgstr "WordPress 更新"
-
-#: wp-admin/js/color-picker.js:139
-msgid "Select Color"
-msgstr "选择颜色"
 
 #: wp-admin/includes/class-walker-nav-menu-edit.php:185
 msgid "Edit menu item"
@@ -14294,10 +13680,6 @@ msgstr "抱歉，您不能编辑此项目。"
 #: wp-admin/term.php:31
 msgid "You attempted to edit an item that does not exist. Perhaps it was deleted?"
 msgstr "您试图编辑一个不存在的项目。可能该项目已被删除？"
-
-#: wp-admin/js/updates.js:3066
-msgid "You do not appear to have any plugins available at this time."
-msgstr "您现在还没有任何插件。"
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:426
 msgid "No plugins found."
@@ -15639,10 +15021,6 @@ msgstr "<b>立即</b>发布"
 msgid "Stick this post to the front page"
 msgstr "将文章置于首页顶端"
 
-#: wp-admin/js/post.js:911
-msgid "Password Protected"
-msgstr "受密码保护"
-
 #: wp-admin/edit-form-comment.php:113 wp-admin/export.php:237
 #: wp-admin/export.php:289 wp-admin/includes/meta-boxes.php:104
 msgid "Status:"
@@ -16567,10 +15945,6 @@ msgstr "发送 Trackbacks"
 #: wp-admin/edit-form-advanced.php:202
 msgid "Page restored to revision from %s."
 msgstr "页面已从 %s 的修订版本中还原。"
-
-#: wp-admin/js/image-edit.js:606
-msgid "Image updated."
-msgstr "图片已更新。"
 
 #: wp-admin/edit-form-advanced.php:189
 msgid "Post saved."
